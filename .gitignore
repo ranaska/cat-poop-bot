@@ -1,1 +1,7 @@
-.venv*
+.venv/
+__pycache__/
+*.pyc
+
+cat_poop_calendar.db
+
+.env
