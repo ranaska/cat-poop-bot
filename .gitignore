@@ -5,3 +5,5 @@ __pycache__/
 cat_poop_calendar.db
 
 .env
+
+bot.log
