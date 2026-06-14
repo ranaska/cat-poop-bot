@@ -1,6 +1,7 @@
 import asyncio
 import os
 import sqlite3
+from dotenv import load_dotenv
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -15,6 +16,8 @@ from aiogram.types import (
 
 
 BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
+
 DB_PATH = BASE_DIR / "cat_poop_calendar.db"
 
 dp = Dispatcher()
