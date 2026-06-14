@@ -7,3 +7,4 @@ cat_poop_calendar.db
 .env
 
 bot.log
+bot.pid
