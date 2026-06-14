@@ -19,7 +19,7 @@ jobs:
           script: |
             set -e
 
-            cd ~/cat-poop-bot
+            cd ~/projects/cat-poop-bot
 
             git fetch --tags origin
             git checkout ${{ github.ref_name }}
